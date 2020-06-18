@@ -1,0 +1,106 @@
+/* NavBar Styling */
+.inline-block{
+    background-color:#7ECFB2;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.navUl li{
+    display: inline-block;
+    padding: 10px;
+    background-color: #B0EFEF;
+    border: 1px solid #00A6B0;
+    border-radius: 4px;
+}
+.navigation{
+    display: flex;
+}
+.logo{
+    height:auto;
+    background-color:#7ECFB2;
+    padding-left: 20px;
+}
+
+.logo img{
+    width: 40%;
+    padding: 1%;
+    text-align: center;
+}
+nav{
+    width: 73%;
+    padding: 1%;
+}
+.navUl{
+    width: 50%;
+    margin-left: auto;
+    list-style: none;
+}
+/* End of NavBar Styling*/
+
+.header{
+    margin-top: 5%;
+    margin-left: 14%;
+    font-size: 30px;
+}
+.columnOne{
+    width: auto;
+}
+.notIndented1{
+    font-size: 20px;
+}
+.indented1{
+    list-style: none;
+}
+.columnTwo{
+    width: auto;
+}
+.notIndented2{
+    font-size: 20px;
+}
+.indented2{
+    list-style: none;
+}
+.columnThree{
+    width: auto;
+}
+.notIndented3{
+    font-size: 20px;
+}
+.indented3{
+    list-style: none;
+}
+.notIndented4{
+    font-size: 20px;
+}
+.flexContainer{
+    display: flex;
+    justify-content: space-evenly;
+}
+.bottomToolsRow{
+    /* margin-top: 5% */
+    margin: 3%;
+}
+.bottomToolsRow img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+        
+}
+/* Footer Styling  */
+.footer{
+    background-color: #7ECFB2 ;
+    padding: 25px;
+}
+.footerCont{
+    display: inline-block;
+    vertical-align: top;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.icons{
+    display: inline-block;
+    vertical-align: top;
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* End of Footer Styling */
