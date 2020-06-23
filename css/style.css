@@ -106,8 +106,8 @@ nav{
 /* End of Footer Styling */
 
 /* Mobile Media Query Begins */
-@media screen and (max-width: 600){
-    body{
+@media only screen and (max-width: 600px){
+    .flexContainer{
         flex-direction: column;
         width: 100%;    
         background-color: red;
